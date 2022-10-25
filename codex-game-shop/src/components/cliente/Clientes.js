@@ -61,55 +61,51 @@ const columns = [
         selector: row => row.id
     },
     {
-        name: 'apellido',
+        name: 'APELLIDO',
         selector: row => row.apellido
     },
     {
-        name: 'edad',
+        name: 'EDAD',
         selector: row => row.edad
     },
     //direccion
     {
-        name: 'calle',
+        name: 'CALLE',
         selector: row => row.calle
     },
     {
-        name: 'ciudad',
+        name: 'CIUDAD',
         selector: row => row.ciudad
     },
     {
-        name: 'localidad',
+        name: 'LOCALIDAD',
         selector: row => row.localidad
     },
     {
-        name: 'codigopostal',
-        selector: row => row.codigopostal
-    },
-    {
-        name: 'codigopostal',
+        name: 'CODIGOPOSTAL',
         selector: row => row.codigopostal
     },
 
     //telefono
     {
-        name: 'tipo',
+        name: 'TIPO',
         selector: row => row.tipo
     },
 
     {
-        name: 'numero',
+        name: 'NUMERO',
         selector: row => row.numero
     },
     {
-        name: 'nombre',
+        name: 'NOMBRE',
         selector: row => row.nombre
     },
     {
-        name: 'correo',
+        name: 'CORREO',
         selector: row => row.correo
     },
 ]
 
-const clientes = () => {
+const Clientes = () => {
     //se configura los hooks
     const [users, setUsers] = useState([])
