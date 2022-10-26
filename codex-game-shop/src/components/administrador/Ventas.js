@@ -7,7 +7,8 @@ const data = [
   {
     id: 1,
     fecha: '2022/06/22',
-    venta: 2500000
+    venta: 2500000,
+    factura: 'FV-001'
   },
   {
     id: 2,
@@ -18,6 +19,12 @@ const data = [
     id: 3,
     fecha: '2022/06/22',
     venta: 6500000
+  },
+  {
+    id: 4,
+    fecha: '2022/07/22',
+    venta: 7500000,
+    factura: 'FV-001'
   }
 
 ]
@@ -25,6 +32,10 @@ const columns = [
   {
     name: 'ID',
     selector: row => row.id
+  },
+  {
+    name: 'FACTURA',
+    selector: row => row.factura
   },
   {
     name: 'FECHA',
