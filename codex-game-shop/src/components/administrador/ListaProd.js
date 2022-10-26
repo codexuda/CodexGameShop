@@ -29,7 +29,7 @@ const columns = [
   },
   {
     name: 'Imagen',
-    selector: row => <img src= {row.urlImagen}	height="60" width="60"/>
+    selector: row => <img src= {row.urlImagen}	height="200" width="200"/>
   },
   {
     name: 'Nombre',
