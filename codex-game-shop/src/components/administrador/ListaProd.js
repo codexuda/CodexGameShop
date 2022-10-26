@@ -7,10 +7,10 @@ const data = [
   {
     "id": "GGOEAFKA087499",
     "urlImagen": "https://i.blogs.es/27b569/telefono/450_1000.jpeg",
-    "nombre": "Android Small Removable Sticker Sheet",
-    "descripcion": "Show your Android pride by placing these 8 fun stickers on your technology products or accessories!",
-    "características": "<p>8 Android stickers</p>\n<p>White colored sticker sheet</p>",
-    "precio": "2.99"
+    "name": "Android Small Removable Sticker Sheet",
+    "description": "Show your Android pride by placing these 8 fun stickers on your technology products or accessories!",
+    "features": "<p>8 Android stickers</p>\n<p>White colored sticker sheet</p>",
+    "price": "2.99"
   },
   {
     "id": "GGOEAFKA087599",
@@ -29,7 +29,7 @@ const columns = [
   },
   {
     name: 'Imagen',
-    selector: row => <img src= {row.urlImagen}/>
+    selector: row => <img src= {row.urlImagen}	height="60" width="60"/>
   },
   {
     name: 'Nombre',
