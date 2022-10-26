@@ -17,7 +17,40 @@ const data = [
     "urlImagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik's_cube.svg/240px-Rubik's_cube.svg.png",
     "name": "Android Large Removable Sticker Sheet",
     "description": "Show your quirky side by placing these fun Android stickers on your personal belongings.",
-    "features": "<p>Android Stickers</p>\n<p>White Colored Sticker Sheet</p>",
+    "features": "Android Stickers</p>\n<p>White Colored Sticker Sheet",
+    "price": "2.99"
+  }
+  ,
+  {
+    "id": "GGOEAFKA087599",
+    "urlImagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik's_cube.svg/240px-Rubik's_cube.svg.png",
+    "name": "Android Large Removable Sticker Sheet",
+    "description": "Show your quirky side by placing these fun Android stickers on your personal belongings.",
+    "features": "Android Stickers</p>\n<p>White Colored Sticker Sheet",
+    "price": "2.99"
+  },
+  {
+    "id": "GGOEAFKA087599",
+    "urlImagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik's_cube.svg/240px-Rubik's_cube.svg.png",
+    "name": "Android Large Removable Sticker Sheet",
+    "description": "Show your quirky side by placing these fun Android stickers on your personal belongings.",
+    "features": "Android Stickers</p>\n<p>White Colored Sticker Sheet",
+    "price": "2.99"
+  },
+  {
+    "id": "GGOEAFKA087599",
+    "urlImagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik's_cube.svg/240px-Rubik's_cube.svg.png",
+    "name": "Android Large Removable Sticker Sheet",
+    "description": "Show your quirky side by placing these fun Android stickers on your personal belongings.",
+    "features": "Android Stickers</p>\n<p>White Colored Sticker Sheet",
+    "price": "2.99"
+  },
+  {
+    "id": "GGOEAFKA087599",
+    "urlImagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik's_cube.svg/240px-Rubik's_cube.svg.png",
+    "name": "Android Large Removable Sticker Sheet",
+    "description": "Show your quirky side by placing these fun Android stickers on your personal belongings.",
+    "features": "Android Stickers</p>\n<p>White Colored Sticker Sheet",
     "price": "2.99"
   }
 
@@ -37,11 +70,11 @@ const columns = [
   },
   {
     name: 'Descripción',
-    selector: row => row.description
+    selector: row => <p> {row.description} </p>
   },
   {
     name: 'Caracteristicas',
-    selector: row => row.features
+    selector: row =><p> {row.features} </p>
   },
   {
     name: 'Valor',
