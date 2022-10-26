@@ -53,6 +53,7 @@ const data = [
                 correo: 'mas@prueba.com'
             }
         ],
+    }
 ]
 const columns = [
 
@@ -108,4 +109,4 @@ const columns = [
 
 const Clientes = () => {
     //se configura los hooks
-    const [users, setUsers] = useState([])
+    const [users, setUsers] = useState([])}
