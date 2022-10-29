@@ -1,14 +1,9 @@
 import React, { useState } from "react";
+import NavClient from '../components/cliente/NavClient';
 
 const Clientes = () => {
     return (
-        <div>
-            <center>
-                <h1>
-                    Clientes
-                </h1>
-            </center>
-        </div>
+    <NavClient />
     );
 }
 

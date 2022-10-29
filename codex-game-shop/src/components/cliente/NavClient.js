@@ -3,7 +3,9 @@ import { NavLink } from 'react-router-dom'
 
 function NavClient() {
     return (
-        <div>
+        <div
+        style={{top:60,left:0,position:'absolute',width:'100%'}}
+        >
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">Clientes</a>
@@ -16,7 +18,7 @@ function NavClient() {
                             <NavLink className="nav-link" to="/ListaProdCli">Lista Productos Clientes</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/Car">Carrito</NavLink>
+                            <NavLink className="nav-link" to="/Carrito">Carrito</NavLink>
                         </li>
                     </ul>
                 </div>
@@ -25,3 +27,5 @@ function NavClient() {
     </div>
     )
 }
+
+export default NavClient

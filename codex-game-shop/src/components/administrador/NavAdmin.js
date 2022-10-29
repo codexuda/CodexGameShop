@@ -3,7 +3,10 @@ import { NavLink } from 'react-router-dom'
 
 function NavAdmin() {
     return (
-        <div>
+        <div
+        style={{top:60,left:0,position:'absolute',width:'100%'}}
+        >
+
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Administrador</a>
