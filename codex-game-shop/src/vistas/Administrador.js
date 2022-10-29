@@ -1,15 +1,9 @@
 import React, { useState } from "react";
+import NavAdmin from './components/administrador/NavAdmin';
 
 const Administrador = () => {
     return (
-        <div>
-            <center>
-                <h1>
-                    Administrador
-
-                </h1>
-            </center>
-        </div>
+    <NavAdmin/>
     );
 }
 
