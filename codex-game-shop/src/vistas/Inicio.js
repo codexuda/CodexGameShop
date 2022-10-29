@@ -7,7 +7,7 @@ import RutaVideo from '../assets/videos/videoInicio.mp4'
 const obtenerEstilos = makeStyles((tema) => ({
     raiz: {
         width: '100%',
-        height: '80vh',
+        height: '90.5vh',
         position: 'relative',
         '& video': {
             objectFit: 'cover',
@@ -15,11 +15,11 @@ const obtenerEstilos = makeStyles((tema) => ({
     },
     superponer: {
         position: 'absolute',
-        top: 0,
+        top: 64,
         left: 0,
         width: '100%',
         height: '100%',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)'
+        backgroundColor: 'rgba(255, 255, 255, 0.4)'
     },
     titulo: {
         paddingBottom: tema.spacing(4),
